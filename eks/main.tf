@@ -29,7 +29,7 @@ variable "vpc_cidr" {
 
 variable "aws_region" {
   description = "region for resource creation"
-  default     = "us-east-1"
+  default     = "ap-northeast-1"
   type        = string
 }
 
