@@ -10,14 +10,14 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "tcslabsfjbs"
+    bucket = "terf-pallavi"
     key    = "eks/terraform.tfstate"
-    region = "us-east-1"
+    region = "ap-northeast-1"
   }
 }
 # Variables
 variable "cluster_name" {
-  default     = "eks-vijay"
+  default     = "eks-pallavi"
   description = "give a cluster name"
   type        = string
 }
